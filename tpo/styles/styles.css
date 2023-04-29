@@ -69,12 +69,11 @@ section, section div, h6, p, a, i {
   padding: 20px;
 }
 
-
-a, #links-redes {
-  color: #ffffff;
+a {
+  color: #fdfdfd;
 }
 
-a:hover, #links-redes:hover {
+a:hover {
   color: #d7c477;
 }
 
