@@ -1,0 +1,258 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: #292929;
+}
+
+#body {
+  background-color: #292929;
+}
+
+.imagenMain {
+  width: 100%;
+  height: 700px;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+
+}
+
+button {
+  background-color: #d7c477;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 40px;
+  border: #d7c477;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+#cabecera {
+  background-color: #292929;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 1001;
+  align-items: center;
+  justify-content: left;
+  border-bottom: 3px solid #d7c477;
+
+}
+
+section,
+section div,
+h6,
+p,
+a,
+i {
+  background-color: #292929;
+}
+
+
+#menu {
+  background-color: #292929;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#header-info {
+  padding: 20px;
+}
+
+
+a,
+#links-redes {
+  color: #ffffff;
+}
+
+a:hover,
+#links-redes:hover {
+  color: #d7c477;
+}
+
+ul {
+  display: flex;
+  align-items: left;
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+
+}
+
+li {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #292929;
+
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  background-color: #292929;
+
+}
+
+#imagesAfter img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-color: #292929;
+  transition: all 400ms;
+  position: relative;
+}
+
+#imagesAfter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  background-color: #292929;
+  margin: 5%;
+  grid-gap: 30px;
+}
+
+#imagesAfter img:hover {
+  transform: scale(1.15);
+}
+
+
+
+#imagesEnvio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  background-color: #292929;
+  margin: 5%;
+
+}
+
+#imagesEnvio img {
+  width: 100%;
+  height: 100%;
+  background-color: #292929;
+  transition: all 300ms;
+  position: relative;
+}
+
+
+#logo {
+  width: 15%;
+}
+
+footer {
+  background-color: #292929;
+  border-top: 10px solid #d7c477;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.footer div h3 {
+  font-weight: 300;
+}
+
+#logo-footer {
+  width: 130px;
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  #cabecera {
+    height: 10%;
+    width: 100%;
+  }
+
+  #cabecera #menu {
+    float: none;
+    width: 100%;
+    height: 20%;
+  }
+
+  #cabecera #menu a {
+    float: none;
+    height: 20%;
+    font-size: x-small;
+  }
+
+  #cabecera img {
+    float: left;
+    width: 30%;
+    height: 50%;
+  }
+
+  li {
+    margin: 1px;
+  }
+
+  .imagenMain {
+    width: 100%;
+    height: 400px;
+  }
+
+}
+
+.titulos {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.parrafos {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.marcas {
+  display: block;
+  list-style: disc;
+  margin: 0;
+  padding: 0;
+}
+
+.marcas li {
+  font-size: 1.3em;
+}
+
+
+#imagesAfter3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  background-color: #292929;
+  margin: 5%;
+  grid-gap: 30px;
+}
+
+#imagesAfter3 img {
+  width: 100%;
+  height: 100%;
+  background-color: #292929;
+}
