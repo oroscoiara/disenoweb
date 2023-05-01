@@ -11,6 +11,10 @@
   background-color: #292929;
 }
 
+.imagenMain {
+  width: 100%;
+  height: 700px;
+}
 
 .boton{
   display: flex;
@@ -37,12 +41,13 @@ button {
   background-color: #292929;
   width: 100%;
   height: 15%;
+  display: flex;
   position: fixed;
   width: 100%;
   z-index: 1001;
   align-items: center;
   justify-content: left;
-  border-bottom: 10px solid #d7c477;
+  border-bottom: 3px solid #d7c477;
  
 }
 
@@ -91,7 +96,7 @@ li {
 
 nav ul li a {
   display: block;
-  padding:10px;
+  padding: 10px;
   color: #fff;
   text-decoration: none;
   background-color: #292929;
@@ -103,6 +108,46 @@ nav ul li a {
   justify-content: center;
   background-color: #292929;
  
+}
+
+
+#imagesAfter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  background-color: #292929;
+  margin: 5%;
+  grid-gap: 30px;
+}
+
+#imagesAfter img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-color: #292929;
+  transition: all 400ms;
+  position: relative;
+}
+
+#imagesAfter img:hover{
+  transform: scale(1.15);
+}
+
+#imagesEnvio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  background-color: #292929;
+  margin: 5%;
+ 
+}
+
+#imagesEnvio img {
+  width: 100%;
+  height: 100%;
+  background-color: #292929;
+  transition: all 300ms;
+  position: relative;
 }
 
 
@@ -153,7 +198,7 @@ footer {
   }
 
   li {
-    margin: 2px;
+    margin: 1px;
 }
 
 .imagenMain {
