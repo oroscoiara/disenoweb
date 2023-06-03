@@ -1,0 +1,179 @@
+
+* 
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: #292929;
+}
+
+#Cabecera{
+    background-color: #292929;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1001;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 10px solid #d7c477;
+   
+  }
+
+  footer {
+    background-color: #292929;
+    border-top: 10px solid #d7c477;
+  }
+  
+  .footer div {
+    text-align: center;
+  }
+  
+  .footer div h3 {
+    font-weight: 300;
+  }
+  
+  #logo-footer {
+    width: 130px;
+    height: 100px;
+  }
+
+  @media screen and (max-width: 768px) {
+    #cabecera {
+      height: 20%;
+      width: 100%;
+    }
+  
+    #cabecera #menu {
+      float: none;
+      width: 100%;
+      height: 20%;
+    }
+  
+    #Cabecera #menu a {
+      float: none;
+      height: 20%;
+      font-size: x-small;
+    }
+  
+    #Cabecera img {
+      float: left;
+      width: 30%;
+      height: 50%;
+    }
+  
+    li {
+      margin: 1px;
+  }
+  
+  .imagenMain {
+    width: 100%;
+    height: 400px;
+  }
+  
+  }
+
+  section, section div, h6, p, a, i {
+    background-color: #292929;
+  }
+  
+  
+  #menu{
+    background-color: #292929;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  #header-info {
+    padding: 20px;
+  }
+  
+  a {
+    color: #fdfdfd;
+  }
+  
+  a:hover {
+    color: #d7c477;
+  }
+  
+  ul {
+    display: flex;
+    align-items: left;
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+   
+  }
+  
+  li {
+    margin: 10px;
+    text-decoration: none;
+    color:white;
+   
+  }
+  
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #292929;
+   
+  }
+
+
+  form {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #4b4a4a;
+    padding: 10px;
+    background-color: #d7c477;
+    
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    background-color: #d7c477;
+    font-family:fantasy;
+    color: black;
+    
+    
+    
+}
+
+input[type="text"], input[type="tel"], select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #363535;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:grey;
+}
+ 
+
+  
