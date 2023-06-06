@@ -1,0 +1,158 @@
+* 
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: #292929;
+  
+}
+
+
+#body {
+  background-color: #292929;
+  
+}
+
+#cabecera{
+  background-color: #292929;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-bottom: 3px solid #d7c477;
+  
+}
+
+section {
+  background-color: #292929;
+}
+
+section div {
+  background-color: #292929;
+  
+}
+
+section h6, p, a , i{
+  background-color: #292929;
+  
+}
+#menu{
+  background-color: #292929;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#header-info {
+  padding: 20px;
+}
+
+a {
+  color: #fdfdfd;
+}
+
+a:hover {
+  color: #d7c477;
+}
+
+ul {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+  
+}
+
+li {
+  margin: 10px;
+  text-decoration: none;
+  color:white;
+  
+}
+
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #292929;
+  
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  background-color: #292929;
+  
+}
+
+
+#imagesAfter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  background-color: #292929;
+  
+  margin: 5%;
+  grid-gap: 30px;
+}
+
+#imagesAfter img {
+  width: 100%;
+  height: 100%;
+  background-color: #292929;
+  transition: all 300ms;
+  position: relative;
+}
+
+#imagesAfter img:hover{
+  transform: scale(1.15);
+}
+
+#imagesEnvio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  background-color: #292929;
+  margin: 5%;
+  
+}
+
+#imagesEnvio img {
+  width: 100%;
+  height: 100%;
+  background-color: #292929;
+  transition: all 300ms;
+  position: relative;
+}
+
+
+#logo{
+  width: 15%;
+}
+
+footer {
+  background-color: #292929;
+  border-top: 10px solid #d7c477;
+}
+
+.footer div {
+  text-align: center;
+}
+
+
+.footer div h3 {
+  font-weight: 300;
+}
+
+#logo-footer {
+  width: 130px;
+  height: 100px;
+}
