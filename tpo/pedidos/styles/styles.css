@@ -11,17 +11,17 @@
 #Cabecera{
     background-color: #292929;
     width: 100%;
-    height: 15%;
+    height: 22%;
     display: flex;
     position: fixed;
     width: 100%;
     z-index: 1001;
     align-items: center;
     justify-content: left;
-    border-bottom: 10px solid #d7c477;
+    border-bottom: 3px solid #d7c477;
    
   }
-
+  
   footer {
     background-color: #292929;
     border-top: 10px solid #d7c477;
@@ -42,7 +42,7 @@
 
   @media screen and (max-width: 768px) {
     #cabecera {
-      height: 20%;
+      height: 22%;
       width: 100%;
     }
   
@@ -151,7 +151,7 @@ label {
 input[type="text"], input[type="tel"], select {
     width: 100%;
     padding: 5px;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
