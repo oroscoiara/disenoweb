@@ -120,6 +120,10 @@ nav ul li a {
   grid-gap: 30px;
 }
 
+.reduce-altura {
+  height: 10%; /* Ajusta el valor según la altura deseada */
+}
+
 #imagesAfter img {
   cursor: pointer;
   width: 100%;

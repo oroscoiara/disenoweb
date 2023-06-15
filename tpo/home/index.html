@@ -30,6 +30,12 @@
             $("#followUs").mouseenter(function() {
                 alert("¡No te olvides de seguirnos en nuestras redes!"); // Muestra una alerta al pasar el mouse sobre el botón
             });
+
+            $("#marca").mouseenter(function() {
+                $(this).animate({ rotate: '+=45deg' }, 300); // Aplica una rotación de 45 grados en sentido horario en 500 milisegundos
+            }).mouseleave(function() {
+                $(this).animate({ rotate: '0deg' }, 500); // Restaura la rotación a 0 grados en 500 milisegundos
+            });
 });
       
     </script>
@@ -96,7 +102,7 @@
                 <div class="container text-center text-md-start mt-5">
                     <div class="row mt-3">
                         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <h1 class="fw-bold"> GORILAS</h1>
+                            <h1 class="fw-bold" id="marca"> GORILAS</h1>
                             <h5><i>Smashed Burgers</i></h5>
                         </div>
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
