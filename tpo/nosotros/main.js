@@ -32,10 +32,10 @@ $(function () {
     var index = 0;
 
     function typeText() {
-        $('.parrafos1').append(text.charAt(index));
-        index++;
-        if (index < text.length) {
-            setTimeout(typeText, 100);
+        $('.parrafos1').append(text.charAt(index)); // agrega la letra de la posicion index
+        index++; // suma valor al index
+        if (index < text.length) { // si el valor index < largo del texto
+            setTimeout(typeText, 100); // vuelve a llamar a la funcion
         }
     }
 
