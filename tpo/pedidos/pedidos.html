@@ -8,6 +8,10 @@
     <title>Pedidos</title>
 </head>
 <body>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="pedidos.js"></script>
+
     <header>
         <div id="Cabecera">
             <img src="../assets/logo.jpeg" width="150px" height="85px" class="logoCabecera">
@@ -31,7 +35,10 @@
             <label for="direccion">Dirección:</label>
             <input type="text" id="direccion" name="direccion" required>
             <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required>
+            <input type="number" id="telefono" name="telefono" required>
+            <label for="Correo">Correo:</label>
+            <input type="email" id="Email" name="Correo" value="" required >
+            <br>
             <label for="hamburguesa">Hamburguesa:</label>
             <select id="hamburguesa" name="hamburguesa">
                 <option value="Black Mamba">Black Mamba $2000</option>

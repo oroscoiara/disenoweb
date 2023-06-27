@@ -175,5 +175,8 @@ input[type="submit"]:hover {
     background-color:grey;
 }
  
-
+.container-main{
+  padding: 80px;
+  padding-bottom: 1px;
+}
   
